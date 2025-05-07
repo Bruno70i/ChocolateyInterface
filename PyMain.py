@@ -60,7 +60,7 @@ check_varJava = BooleanVar()
 check_varAnydesk = BooleanVar()
 check_varlibreoffice = BooleanVar()
 
-# Label para mostrar o estado
+
 texto_programas = Label(janela, text="Programas Escolhidos: \n")
 texto_programas.grid(column=2, row=1, padx=10, pady=5)
 
@@ -155,7 +155,7 @@ def mostrar_estado():
     
 
 # check 01
-# cria o Checkbutton vinna tela
+# Checkbutton vinculado à variável
 checkbox1 = Checkbutton(janela, text="GOOGLE", variable=check_varGoogle, command=mostrar_estado)
 checkbox1.grid(column=0, row=2, padx=2, pady=2)
 
