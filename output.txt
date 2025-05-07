@@ -1,0 +1,2 @@
+﻿Realizando a operação "Set-ExecutionPolicy" no destino "AllSigned".
+Realizando a operação "Set-ExecutionPolicy" no destino "AllSigned".

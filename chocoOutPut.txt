@@ -1,0 +1,2 @@
+﻿Chocolatey v2.4.3
+Please run 'choco -?' or 'choco <command> -?' for help menu.

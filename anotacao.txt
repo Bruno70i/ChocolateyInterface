@@ -1,0 +1,21 @@
+C:\Users\Cliente\Downloads\bot.exe
+
+
+
+
+uses
+  ShellAPI, Windows;
+
+procedure ExecutarPrograma;
+begin
+  ShellExecute(0, 'open', 'C:\Users\Cliente\Downloads\bot.exe', nil, nil, SW_SHOWNORMAL);
+end;
+
+
+
+
+
+
+
+import subprocess
+subprocess.run(r"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe", shell=True)
